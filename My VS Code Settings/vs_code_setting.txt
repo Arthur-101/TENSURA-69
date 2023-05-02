@@ -1,0 +1,249 @@
+{
+    "workbench.editor.enablePreview": false,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "code-runner.defaultLanguage": "python",
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook",
+      "*.sqlite3": "default",
+      "*.py": "default"
+    },
+    "editor.lineHeight": 0,
+    "editor.fontWeight": "normal",
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": " 'Fira Code iScript', 'Fira Code', 'Courier New', monospace",
+    "editor.fontSize": 14,
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        //   {
+    //         "scope": [
+    //           //following will be in italic bold (=FlottFlott)
+    //           "entity.name.type.class", //class names
+    //           "keyword", //import, export, return…
+    //           // "storage.modifier", //static keyword
+    //           "storage.type", //class keyword
+    //           // "support.class.builtin",
+    //           "keyword.control.import.python",
+    //           "keyword.control.flow.python",
+    //           // "keyword.control",
+    //           // "constant.language",
+    //           // "entity.other.attribute-name",
+    //           // "entity.name.method",
+              
+    //         ],
+    //         "settings": {
+    //           "fontStyle": "italic bold underline",
+    //         }
+    //       },
+              
+    //       {
+    //         "scope": [
+    //             "entity.name.namespace",
+    //             // "keyword.control.flow.python",
+    //             "source.python",
+    //             "entity.other.attribute-name",
+    //             "storage.modifier", //static keyword
+    //             "support.class.builtin",
+    //             "keyword.control",
+    //             "constant.language",
+    //             "entity.other.attribute-name",
+    //             "entity.name.method",
+    //         ],
+    //         "settings":{
+    //             "fontStyle": "italic",
+    //         }  
+    //       },
+          {
+            "scope": [
+              
+                "variable.parameter",
+            ],
+            "settings":{
+                "fontStyle": "italic",
+                "foreground": "#65e2ed"
+            }  
+          },
+          {                                                    // FOR 'ISHTAR' THEME ONLY
+            "scope": [                                        // SAURAV, DISABLE IT FOR OTHER THEMES
+                  "keyword.control.import.python",
+                  "keyword.control.flow.python",
+            ],
+            "settings":{
+                // "fontStyle": "italic",
+                "foreground": "#fa2a54"
+            }  
+          },
+          {                                                   // FOR 'ISHTAR' THEME ONLY
+            "scope": [                                       // SAURAV, DISABLE IT FOR OTHER THEMES
+                  "constant.language.python",
+            ],
+            "settings":{
+                "fontStyle": "bold underline",
+                "foreground": "#bd29f7"
+            }  
+          },
+          {                                                   // FOR 'ISHTAR' THEME ONLY
+            "scope": [                                       // SAURAV, DISABLE IT FOR OTHER THEMES
+                  "variable.other.property",
+            ],
+            "settings":{
+                "fontStyle": "italic",
+                "foreground": "#526aed"
+            }  
+          },
+          {
+            "scope": [                                        // FOR 'ISHTAR' THEME ONLY
+              "entity.name.function.python",                 // SAURAV, DISABLE IT FOR OTHER THEMES 
+              // "function",
+            ],
+            "settings":{
+                "foreground": "#d8af40"
+            }  
+          },
+          {
+            "scope": [
+              // "declaration",
+              "variable",
+            ],
+            "settings":{
+                "fontStyle": "italic",
+                "foreground": "#566fff"
+            }  
+          },
+          {
+            "scope": [
+              "keyword.operator.assignment.python",
+              "keyword.operator.arithmetic.python",
+              "keyword.operator.comparison.python",
+            ],
+            "settings":{
+                "fontStyle": "italic",
+                "foreground": "#ffffff"
+            }  
+          },
+          {
+            "scope": [
+            	// "constant.other.caps.python",
+              "variable.other.readwrite",
+            ],
+            "settings":{
+                // "fontStyle": "italic",
+                "foreground": "#12edabeb",
+            }  
+          },
+          {
+            "scope": [                                               // FOR 'ISHTAR' THEME ONLY
+                "string.quoted.single.python",                       // SAURAV, DISABLE IT FOR OTHER THEMES
+                "punctuation.definition.string.begin.python",
+                "punctuation.definition.string.end.python",
+            ],
+            "settings":{
+                "fontStyle": "italic",
+                "foreground": "#fc384f"
+            }  
+          },
+          {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment.python",
+                "punctuation.definition.comment.json.comments",
+            ],
+            "settings":{
+                "fontStyle": "italic",
+                "foreground": "#1b9537",
+            }  
+          },
+    //       {
+    //         "scope": [
+    //           //following will be excluded from italics (VSCode has some defaults for italics)
+    //           "invalid",
+    //           "keyword.operator",
+    //           "constant.numeric.css",
+    //           "keyword.other.unit.px.css",
+    //           "constant.numeric.decimal.js",
+    //           "constant.numeric.json"
+
+    //         ],
+    //         "settings": {
+    //           "fontStyle": "italic"
+    //         }
+    //       }
+        ]
+      },
+
+    "debug.terminal.clearBeforeReusing": true,
+    // "terminal.external.osxExec": "iTerm.app",
+    // "terminal.integrated.shell.osx": "/bin/zsh",
+    // "terminal.integrated.fontFamily": "D2Coding",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "workbench.colorCustomizations": {
+
+
+
+
+
+    
+        // "terminal.foreground": "#00ff08",
+        "terminalCursor.foreground": "#26ff00",
+        "[Monokai]": {
+            // "sideBar.foreground": "#c7c7c7",
+            // "sideBar.background": "#0b1014",
+            // "sideBarSectionHeader.background": "#0b1014",
+            "editor.background": "#1a1818",
+            // "breadcrumb.background": "#0b1014",
+            // "statusBar.background": "#0b1014",
+            // "statusBar.foreground": "#626262",
+            // "minimap.background": "#0b1014",
+            // "titleBar.activeBackground": "#0b1014",
+            // "editorGroupHeader.tabsBackground": "#0b1014",
+            // "activityBar.background": "#0b1014",
+            // "tab.inactiveBackground": "#0b1014",
+            // "tab.activeBackground": "#0b1014",
+            // "tab.activeBorder": "#ffd866",
+        }
+    },
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.accessibilitySupport": "off",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.localEchoStyle": "dim",
+
+    
+    "editor.fontLigatures": false,
+    "workbench.colorTheme": "62a4f26f-34b2-46f8-a10c-798e48c1ce9d",
+    "workbench.iconTheme": "material-icon-theme",
+    "vsicons.dontShowNewVersionMessage": true,
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.saturation": 1,
+
+    // "doki.wallpaper.path": "C:\\Users\\dell\\Documents\\VS Code\\Wallpaper\\ishtar_13.png",
+    // "doki.background.path": "C:\\Users\\dell\\Documents\\VS Code\\Wallpaper\\ishtar_13.png",
+    // "doki.sticker.path": "C:\\Users\\dell\\Documents\\VS Code\\Sticker\\Fate_logo_1 (1).png",
+    "doki.statusbar.name": "Arthur",
+
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "jupyter.askForKernelRestart": false,
+    "notebook.lineNumbers": "on",
+    }
+
+    // 62a4f26f-34b2-46f8-a10c-798e48c1ce9d
